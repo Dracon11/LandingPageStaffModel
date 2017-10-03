@@ -1,0 +1,69 @@
+html,body{
+	font-family:'Helvetica',sans-serif;
+}
+
+img{
+	max-width:100%;
+}
+
+#jumbotron-landing{
+	background-color: #E4E4E4;
+	background-image:url('../images/background.jpg') ;
+	opacity: 0.75;
+	background-size: 105%;
+	background-repeat: no-repeat;
+	color:#000;
+
+}
+
+
+#jumbotron-landing:hover{
+	opacity:0.80 ;
+	filter:alpha(opacity=100);
+}
+
+#jumbotron-mensaje,#jumbotron-logo,#jumbotron-cta{
+
+	opacity:1.0 ;
+	filter:alpha(opacity=100);
+}
+
+#adaptar{
+	width:100%;
+}
+
+/*****************************
+PAGINA: PORTAFOLIO
+*****************************/
+#gallery{
+  margin: 0;
+  padding: 0 ;
+  /*para quitar los bullets(puntos) de la lista*/
+  list-style:none;
+}
+#gallery li{
+  /*Acomoda los elementos */
+  float: left;
+  /*varia el tamaño de imagenes*/
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+#gallery li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #dbc3c7;
+}
+
+#mce-EMAIL,#mc-embedded-subscribe{
+	height:75px;
+	font-size:20px;
+}
+
+#footer{
+	background:#333;
+	color:#fff;
+	margin-top: 10px;
+}
